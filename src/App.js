@@ -4,6 +4,7 @@ import logo from './logo.svg';
 import './App.css';
 import Toggle from './ToggleRPC';
 import Portal from './Portal';
+import Modal from './Modal';
 
 function App() {
   return (
@@ -11,9 +12,10 @@ function App() {
       <Toggle>
         {({ on, toggle }) => (
           <React.Fragment>
-            {on && <h1>Toggle Me</h1>}
-            <button onClick={toggle}>Show/Hide</button>
-            <Portal>{on && <h1>Hi in a portal</h1>}</Portal>
+            <button onClick={toggle}>Login</button>
+            <Modal on={on} toggle={toggle}>
+              still Modal
+            </Modal>
           </React.Fragment>
         )}
       </Toggle>
