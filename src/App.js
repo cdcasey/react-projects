@@ -14,7 +14,7 @@ function App() {
           <React.Fragment>
             <button onClick={toggle}>Login</button>
             <Modal on={on} toggle={toggle}>
-              still Modal
+              <h1>Still in Modal</h1>
             </Modal>
           </React.Fragment>
         )}
