@@ -2,9 +2,7 @@ import React from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-import Toggle from './ToggleRPC';
-import Portal from './Portal';
-import Modal from './Modal';
+import { Toggle, Portal, Modal } from './Utilities';
 
 function App() {
   return (
