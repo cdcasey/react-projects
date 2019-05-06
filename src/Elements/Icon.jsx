@@ -24,7 +24,6 @@ export default class Icon extends Component {
           </svg>
           //   <>&times;</>
         );
-        break;
 
       default:
         break;

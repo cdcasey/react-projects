@@ -2,7 +2,8 @@ import React from 'react';
 
 import logo from './logo.svg';
 import './App.css';
-import { Toggle, Portal, Modal } from './Utilities';
+import { Toggle } from 'Utilities';
+import { Modal } from 'Elements';
 
 function App() {
   return (
